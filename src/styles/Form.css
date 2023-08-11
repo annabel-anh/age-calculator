@@ -1,0 +1,68 @@
+.form {
+    font-weight: var(--fw-bold);
+    color: var(--primary-smokey-grey);
+    font-size: 2rem;
+    flex-direction: column;
+}
+
+.form--input-container > * + * {
+    margin-left: 2rem;
+}
+
+.form--label {
+    letter-spacing: 0.07rem;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.form--input {
+    width: 10rem;
+    height: 4.5rem;
+    padding: 1.4rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-light-grey);
+    cursor: pointer;
+}
+
+.form--input:hover,
+.form--input:focus {
+    border: 1px solid var(--primary-purple);
+}
+
+.button {
+    width: 6rem;
+    aspect-ratio: 1/1;
+    margin-left: auto;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--primary-purple);
+    background-image: url("../assets/images/icon-arrow.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--primary-off-black);
+    cursor: pointer;
+}
+
+.button-container {
+    align-items: center;
+}
+
+.line {
+    width: 90%;
+    height: 1px;
+    background-color: var(--primary-light-grey);
+}
+
+.error-msg {
+    font-size: 0.8rem;
+    font-weight: var(--fw-reg);
+    font-style: italic;
+    color: var(--primary-light-red);
+
+    margin-top: 0.3rem;
+}

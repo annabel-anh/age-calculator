@@ -1,0 +1,13 @@
+.age {
+    font-style: italic;
+    font-size: 6.5rem;
+    margin-top: -20px;
+}
+
+.age-value {
+    color: var(--primary-purple)
+}
+
+.age > p + p {
+    margin-top: -44px;
+}

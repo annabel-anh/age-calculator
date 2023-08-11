@@ -1,0 +1,136 @@
+/* ------------------------- */
+/* Custom properties         */
+/* ------------------------- */
+:root {
+    /* colors */
+    --primary-purple: hsl(259, 100%, 65%);
+    --primary-light-red: hsl(0, 100%, 67%);
+
+    --primary-white: hsl(0, 0%, 100%);
+    --primary-off-white: hsl(0, 0%, 94%);
+    --primary-light-grey: hsl(0, 0%, 86%);
+    --primary-smokey-grey: hsl(0, 1%, 44%);
+    --primary-off-black: hsl(0, 0%, 8%);
+
+    /* font family */
+    --ff-poppins: "Poppins", sans-serif;
+
+    /* font weights */
+    --fw-reg: 400;
+    --fw-bold: 700;
+    --fw-xbold: 800;
+}
+
+
+/* ------------------------- */
+/* Reset                     */
+/* ------------------------- */
+
+/* Box sizing */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Margins */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-weight: 700;
+}
+
+/* Set up the body */
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+
+    background-color: var(--primary-off-white);
+    font-family: var(--ff-poppins);
+}
+
+/* Make form elements easier to work with */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* Remove animations for people who've turned them off */
+@media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+
+/* ------------------------- */
+/* Utility classes           */
+/* ------------------------- */
+
+/* general */
+.flex {
+    display: flex;
+}
+
+.block {
+    display: block;
+}
+
+/* text */
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

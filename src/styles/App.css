@@ -1,0 +1,21 @@
+body {
+    justify-content: center;
+    align-items: center;
+}
+
+.design {
+    position: absolute;
+    z-index: 1000;
+    opacity: 20%;
+}
+
+.app {
+    width: 52.4rem;
+    height: 40.5rem;
+    background-color: var(--primary-white);
+    border-radius: 1.5rem 1.5rem 12rem 1.5rem;
+}
+
+.app--container {
+    padding: 3.3rem 3.5rem;
+}
