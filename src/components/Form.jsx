@@ -67,7 +67,7 @@ export default function Form(props) {
                     {errors.year && <p className="error-msg">{errors.year}</p>}
                 </div>
             </div>
-            {errors.wholeDate && <p className="error-msg">{errors.wholeDate}</p>}
+            {errors.wholeDate && <p className="error-msg error-msg-whole-date">{errors.wholeDate}</p>}
             <div className="button-container flex">
                 <div className="line"></div>
                 <button className="button"></button>

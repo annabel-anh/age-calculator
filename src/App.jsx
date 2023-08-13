@@ -86,7 +86,6 @@ function App() {
 
     return (
         <div className="app">
-            <div className="app--container">
                 <Form
                     birthday={{
                         day: birthday.day,
@@ -98,7 +97,6 @@ function App() {
                     errors={errorMsg}
                 />
                 <Result age={age} isDateValid={isDateValid} ></Result>
-            </div>
         </div>
     )
 }

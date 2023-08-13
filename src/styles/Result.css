@@ -1,11 +1,17 @@
 .age {
     font-style: italic;
     font-size: 6.5rem;
-    margin-top: -20px;
+    margin-top: -1.8rem;
+    font-weight: 800;
 }
 
 .age-value {
-    color: var(--primary-purple)
+    color: var(--primary-purple);
+    
+}
+
+.age > p {
+    letter-spacing: -0.25rem;
 }
 
 .age > p + p {

@@ -108,6 +108,65 @@ select {
     text-transform: uppercase;
 }
 
+@media screen and (max-width: 800px) {
+
+    /* general */
+    .app {
+        width: 26.875rem;
+        height: 35rem;
+        padding: 4rem 1.875rem;
+    }
+
+    /* form component */
+    .form {
+        margin-bottom: 3rem;
+    }
+
+    .form--label {
+        font-size: 0.8rem;
+        margin-bottom: 0.5rem;
+        letter-spacing: 0.1rem;
+    }
+
+    .form--input {
+        font-size: 1.2rem;
+        width: 6.625rem;
+        height: 4rem;
+        padding: 0.8rem;
+
+    }
+
+    .form--input-container > * + * {
+        margin-left: 1.2rem;
+    }
+
+    .button {
+        width: 4rem;
+        background-size: 40%;
+        margin-left: -220px;
+    }
+
+    .line {
+        width: 100%;
+    }
+
+    /*result component */
+    .age {
+        font-size: 4rem;
+    }
+
+    .age > p + p {
+        margin-top: -25px;
+    }
+
+    .error-msg {
+        font-size: 0.65rem;
+    }
+
+    .button-container {
+        margin-top: 2.5rem;
+    }
+}
 
 
 
