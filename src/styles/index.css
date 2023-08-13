@@ -159,6 +159,10 @@ select {
         margin-top: -25px;
     }
 
+    .age > p {
+        letter-spacing: -0.1rem;
+    }
+
     .error-msg {
         font-size: 0.65rem;
     }
